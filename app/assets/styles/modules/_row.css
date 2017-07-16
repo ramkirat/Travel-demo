@@ -3,6 +3,11 @@
 	@mixin clearfix;
 	/* background: #f75555; */
 
+	
+	&--t-padding {
+		padding-top: 80px;
+	}
+
 	&--gutters {
 		margin-right: -65px;
 	}
@@ -51,5 +56,15 @@
 	}
 
 
-	
+	/* begain equal height rules */
+	&--equal-height-at-medium {
+		@mixin atMedium {
+			display: flex;
+		}
+
+		& > div {
+			float: none;
+			display: flex;
+		}
+	}
 }
