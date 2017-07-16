@@ -10,6 +10,7 @@
 *~
 *.sass-cache
 node_modules/
+package-lock.json
 .tmp/
 
 # OS or Editor folders
